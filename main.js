@@ -8,7 +8,7 @@ bot.on('ready',() => {
     console.log('Bot ready !');
 });
 
-bot.login('NDExMTA0Njk3NzAxNjI5OTYy.DV7vTg.2yNr8TTW5-c0v9_Xx8ncUSnF6ZY')
+bot.login(process.env.TOKEN)
 
 bot.on('message', message => {
     if (message.content === "!infoguerrier"){
